@@ -82,18 +82,21 @@ hr {
 		}
 
 		& .contact-details {
-			display: grid;
-			grid-template-columns: 1fr;
+			display: flex;
+			flex-direction: column;
+			gap: 2px;
 
 			font-size: 14px;
 			font-style: italic;
 			text-align: right;
 
-			& .contact-icon {
-				width: 16px;
-				height: 16px;
-				vertical-align: bottom;
-				margin-right: 3px;
+			& .contact {
+				& .contact-icon {
+					width: 16px;
+					height: 16px;
+					vertical-align: bottom;
+					margin-right: 3px;
+				}
 			}
 		}
 	}
