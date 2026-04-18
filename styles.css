@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	background: #e0e0e0; /* grey surround so the page looks like a document */
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
+	font-family: Calibri, sans-serif;
+}
+
+.page {
+	background: white;
+	width: 210mm;
+	min-height: 297mm;
+	padding: 20mm 18mm;
+}
+
+@media print {
+	body {
+		background: none;
+		padding: 0;
+	}
+
+	.page {
+		width: 100%;
+		min-height: 100%;
+		padding: 0;
+		box-shadow: none;
+	}
+
+	@page {
+		size: A4;
+		margin: 20mm 18mm;
+	}
+}
