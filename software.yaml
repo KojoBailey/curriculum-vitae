@@ -1,0 +1,43 @@
+---
+type: software
+
+name: Kojo Bailey
+email: kojomolojo@gmail.com
+linkedin: kojo-bailey
+phone: +44 (0) 7411 978 875
+phone_raw: +4407411978875
+location: Waterloo, Liverpool
+location_url: https://maps.app.goo.gl/TvZ9cjL5pS4TJLYP8
+
+intro: |
+  Passionate undergraduate at the University of Liverpool seeking summer work where I can contribute my skills towards a shared mission. Skilled in interpersonal communication, adaptable in new environments, and highly attentive to detail.
+
+education:
+  - title: University of Liverpool
+    url: https://www.liverpool.ac.uk/
+    date_start: September 2025
+    date_end: Present
+    detail: Computer Science BSc
+    desc: |
+      Studying undergraduate degree with a year in industry. Great interest in software development and a relentless passion for the design of reliable and efficient, user-focused systems.
+  - title: International School of London, Qatar
+    url: https://www.islqatar.org/
+    date_start: August 2022
+    date_end: June 2025
+    detail: International Baccalaureate Diploma Programme - 36 points
+    desc: |
+      **HL:** Maths AA, Physics, English Lang&Lit; **SL:** Psychology, Chemistry, Spanish B.
+      Received the CAS Creativity Award for my extracurricular endeavours, and focused my Extended Essay on the impact of multilingualism on executive functioning skills.
+
+projects:
+  - title: CLI Calculator - OCaml and Haskell
+    url: https://github.com/KojoBailey/cli-calculator-ocaml
+  - title: jojomodding.com - React w/ JavaScript
+    url: https://github.com/JoJosBizarreModdingCommunity/JoJosBizarreModdingCommunity.github.io
+  - title: JoJo's Bizarre Modding Community - ImHex, 010 Editor, IDA (Interactive Disassembler)
+  - title: XFBIN Library - C++
+    url: https://github.com/KojoBailey/nucc-cpp-library
+  - title: RSLox - Rust
+    url: https://github.com/KojoBailey/rslox
+  - title: SvZ Kaizen - Unity w/ C#
+  - title: Pong - Raylib w/ Odin

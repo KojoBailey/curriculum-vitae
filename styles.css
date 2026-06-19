@@ -111,22 +111,18 @@ hr {
 	font-size: 20px;
 	text-transform: uppercase;
 
-	background-color: rgb(255 241 209);
+	background-color: rgb(240 240 245);
 	margin: 15px 0;
 }
 
 .section-body {
-	border-left: solid 2px var(--line-color);
 	padding: 5px 0;
-	padding-left: 15px;
 
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
 
 	& .section-entry {
-		border: dashed 2px var(--line-color);
-		padding: 5px;
 	}
 
 	& .education-entry {
